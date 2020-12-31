@@ -1,0 +1,237 @@
+body {
+  font-family: Arial, sans-serif !important;
+  font-size: 20px !important;
+  line-height: 1.5 !important;
+  background-color: #04080f !important;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.logo_text {
+  color: black;
+}
+
+.h2,
+h2 {
+  font-size: 3rem !important;
+  font-weight: 600 !important;
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+  display: inline-block !important;
+}
+
+.navbar {
+  justify-content: space-between !important;
+  align-content: flex-start !important;
+}
+
+.lottie {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+}
+
+.heroImg {
+  height: 300px;
+  width: 300px;
+  padding: 2em;
+}
+
+.row {
+  margin-left: 200 !important;
+  margin-right: 200 !important;
+}
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.heroColor {
+  background-color: #a1c6ea;
+  border-style: solid;
+}
+
+.hero_title{
+  padding-top: 20px;
+}
+
+.heroText {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+section {
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+i {
+  margin: 5px !important;
+}
+
+.fa-gitlab:hover {
+  transform: scale(1.25);
+  color: white;
+}
+
+.fa-gitlab {
+  transition: all 0.2s;
+  transform-style: preserve-3d;
+}
+
+.fa-github:hover {
+  transform: scale(1.25);
+  color: white;
+}
+
+.fa-github {
+  transition: all 0.2s;
+  transform-style: preserve-3d;
+}
+
+.fa-twitter:hover {
+  transform: scale(1.25);
+  color: white;
+}
+
+.fa-twitter {
+  transition: all 0.2s;
+  transform-style: preserve-3d;
+}
+
+.fa-linkedin:hover {
+  transform: scale(1.25);
+  color: white;
+}
+
+.fa-linkedin {
+  transition: all 0.2s;
+  transform-style: preserve-3d;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    justify-content: flex-start !important;
+    align-content: flex-start !important;
+  }
+
+  .heroImg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .heroColor {
+    background-color: #a1c6ea;
+    border-style: solid;
+  }
+
+  .hero_title {
+    font-size: 30px !important;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  .heroText {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+}
+
+/* Footer */
+
+.footer {
+  color: var(--clr-dark);
+  text-align: center;
+  padding: 2.5em 0;
+  font-size: var(--fs-h3);
+}
+
+.footer a {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.footer__link {
+  font-weight: var(--fw-normal);
+}
+
+.footer__link:hover,
+.social-list__link:hover {
+  opacity: 0.7;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.473) !important;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 1em 0 0;
+  padding: 0;
+}
+
+.social-list__item {
+  margin: 0 0.5em;
+}
+
+.social-list__link {
+  padding: 0.5em;
+}
+
+/* -------------- */
+
+dd{
+    text-indent: 5%;
+}
+
+dt{
+    text-indent: 1%;
+}

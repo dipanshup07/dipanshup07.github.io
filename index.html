@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="index.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <nav class="navbar">
+            <a class="navbar-brand logo_text" href="#">
+                <h3 style="color:#DAE3E5 !important;">Dipanshu</h2>
+            </a>
+            <div class="nav-alt-text">
+                <h4 style="color:#DAE3E5 !important;">Competitive Programmer</h4>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero image -->
+    <section>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 heroColor">
+                <div class="container hero">
+                    <div id="heroText" style="color: #04080F !important; max-width: 100%;">
+                        <h2 class="hero_title"><strong>Dipanshu Pimplikar</strong></h2>
+                        <h3><strong>Competitive Programmer and animal lover</strong></h3>
+                        <p><strong>I am a Competitive Programmer, currently a trainee in GlobalLogic.</strong></p>
+
+                        <button class="btn btn-secondary" style="background-color:#507DBC ;"
+                            onclick="Resume();">Resume</button>
+                    </div>
+                    <div class="heroImg">
+                        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_SmywXC.json"
+                            background="transparent" speed="1" loop autoplay>
+                        </lottie-player>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </section>
+    <!-- About me -->
+    <section>
+        <div class="row ">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 about">
+                <div class="container">
+                    <div>
+                        <h2 style="color: #DAE3E5;">About me:</h2>
+                        <p style="color: #DAE3E5;">
+                            Trying to enhance and explore my technical knowledge gained at Nagpur University(RTMNU)
+                            in the
+                            last
+                            four years. I hold a B.E degree from Rajiv Gandhi College of Engineering and Research,
+                            Nagpur.
+                            Held the position of campus ambassador at Entrepreneurship Awareness Drive(EAD) 2019
+                            organized
+                            by
+                            IIT Kharagpur in Nagpur, also a Machine Learning/ Artificial Intelligence enthusiast,
+                            worked on
+                            Android as well and crazy about competitive programming.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </section>
+    <!-- Projects -->
+    <section>
+        <div class="row ">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 about">
+                <div class="container">
+                    <div>
+                        <h2 style="color: #DAE3E5;">Projects:</h2>
+                        <dl style="color: #DAE3E5;">
+                            <dt>1. Home Automation system using NodeMCU</dt>
+                            <dd>-A demo system built for controlling home appliances remotely using WiFi.</dd>
+                            <dd>-Tools and Technologies: Arduino IDE, NodeMCU/ESP8266.</dd>
+                            <dt>2. Project Drishti</dt>
+                            <dd>-An android based project for detecting color blindness.</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <a href="mailto:dipanshup07@gmail.com" class="footer__link">dipanshup07@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <i class="fab fa-gitlab fa-2x" onclick="Gitlab()"></i>
+            </li>
+            <li class="social-list__item">
+                <i class="fab fa-linkedin fa-2x" onclick="LinkedIn()"></i>
+            </li>
+            <li class="social-list__item">
+                <i class="fab fa-github fa-2x" onclick="Github()"></i>
+            </li>
+            <li class="social-list__item">
+                <i class="fab fa-twitter fa-2x" onclick="Twitter()"></i>
+            </li>
+        </ul>
+        <a>Copyright &#169 2020 Dipanshu Pimplikar</a>
+    </footer>
+</body>
+
+</html>
